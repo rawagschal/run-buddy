@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* set the background color and font for the entire page */
+body {
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
+header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
+} 
+
+/* all <a> elements in the header*/
+header a {
+    /*override default text-decoration: underline; for <a> elements*/
+    text-decoration: none;
+    /*override default color: blue; for <a> elements*/
+    color: #fce138;
+}
+
+/*all the <nav> elements in the header <header> element*/
+header nav {
+    /*override default display:block; style and move it to the right*/
+    float: right;
+    margin: 7px 0;
+}
+
+/*all the list items in the unordered list in the nav element of the header*/
+header nav ul li {
+    /* override default block style of li elements */
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+
