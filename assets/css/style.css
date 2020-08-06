@@ -1,3 +1,4 @@
+/* use universal selector * to select all elements on the page */
 * {
     margin: 0;
     padding: 0;
@@ -73,5 +74,26 @@ footer div {
 
 footer a {
     color: #024e76;
+}
+
+section {
+    padding: 60px;
+}
+
+/* hero style */
+.hero {
+    background-image: url("../images/hero-bg.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+/* end hero style */
+
+.hero-form {
+    background-color: #fce138;
+    padding: 20px ;
+    width: 500px;
+    color: #024e76;
+    border: solid 3px #024e76;
 }
 
