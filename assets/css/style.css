@@ -158,39 +158,28 @@ section {
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 /*end general section title style*/
 
 /* what we do section style */
-.intro {
-    text-align: center;
-}
-
-.primary-border {
-    border-color: #fce138;
-}
-
 .intro p {
     line-height: 1.7;
     color: #39a6b2;
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center;
 }
 /*end what we do section style*/
 
 /*What you do section style*/
 .steps {
-    text-align: center;
     background: #fce138;
-}
-
-.secondary-border {
-    border-color: #39a6b2;
 }
 
 .steps div {
@@ -220,8 +209,7 @@ section {
 
 /* start trainers section style */
 .trainers {
-    /* centers the whole section's text */
-    text-align: center;
+
 }
 
 .trainer {
@@ -262,21 +250,10 @@ section {
     font-size: 17px;
     line-height: 1.3;
 }
-
-/* UTILITY CLASSES similar to the primary- and secondary-border */
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
-}
-
 /* end trainers section style */
 
 /* start reach out section style */
 .contact {
-    text-align: center;
     background-color: #024e76;
 }
 
@@ -315,5 +292,25 @@ section {
 .contact-info a{
     color: #fce138;
 }
-
 /* end reach out section style */
+
+/* UTILITY CLASSES */
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color: #39a6b2;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.flex-row {
+    display:flex;
+}
