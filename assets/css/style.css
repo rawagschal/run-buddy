@@ -14,6 +14,12 @@ body {
 
 
 header {
+    /* add flexbox*/
+    display: flex;
+    /* equal space between header children */
+    justify-content: space-between;
+    /* allow header children to wrap to line 2 of flexbox */
+    flex-wrap: wrap;
     padding: 20px 35px;
     background-color: #39a6b2;
 }
@@ -23,7 +29,6 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    display: inline;
 } 
 
 /* all <a> elements in the header*/
@@ -35,9 +40,7 @@ header a {
 }
 
 /*all the <nav> elements in the header <header> element*/
-header nav {
-    /*override default display:block; style and move it to the right*/
-    float: right;
+header nav {  
     margin: 7px 0;
 }
 
