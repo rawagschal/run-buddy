@@ -206,6 +206,10 @@ section {
     max-width: 100%;
 }
 
+.step-text {
+    flex: 12;
+}
+
 .step-text p {
     flex: 12;
     color: #39a6b2;
