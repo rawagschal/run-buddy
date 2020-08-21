@@ -280,6 +280,10 @@ section {
 .service-grid-container {
     /* turn on CSS grid for the entire container */
     display: grid;
+    /* explicitly establish grid dimensions by declaring both rows and columns */
+    /* but for some fucking reason implicitly establish grid gaps */
+    grid-template-columns: 210px 210px;
+    grid-template-rows: 60px 60px 60px;
 }
 
 .service-grid-item {
